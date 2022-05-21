@@ -6,10 +6,10 @@ export const HomeView = () => {
     <>
       <div className={styles.home_container}>
         <div className={styles.home_background}>
-        </div>
-        <div className={styles.home_content}>
-          <h1 className={styles.home_title}>TITLE</h1>
-          <p className={styles.home_ubtitle}>Subtitle</p>
+          <div className={styles.home_content}>
+            <h1 className={styles.home_title}>TITLE</h1>
+            <p className={styles.home_ubtitle}>Subtitle</p>
+          </div>
         </div>
       </div>
       <About />
