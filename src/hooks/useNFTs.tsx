@@ -41,6 +41,7 @@ export default function useFetchNFTByUser(
         setLoading(false);
       });
   }, [fetchNFTByUser]);
+  
   return [NFTs, fetchNFTByUser, isLoading];
 }
 
