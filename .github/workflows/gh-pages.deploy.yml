@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /triumph-or-die-trying
+      NEXT_PUBLIC_BASE_PATH: /ricardocr987
 
     strategy:
       matrix:
-        node-version: [17.x]
+        node-version: [16.x]
 
 
     steps:
