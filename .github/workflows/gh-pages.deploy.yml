@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: { os: macos-latest, arch: arm64 }
+    runs-on: macos-latest
 
     env:
       NEXT_PUBLIC_BASE_PATH: /ricardocr987
@@ -27,6 +27,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
         run: npm ci
+        with:
+          arch: arm64
       - name: Build project
         run: npm run build
       - name: Export static files
