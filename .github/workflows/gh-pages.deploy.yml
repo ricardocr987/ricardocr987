@@ -8,7 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: macOS-latest
+    runs-on:
+      os: macos-latest
+      arch: arm64
 
     env:
       NEXT_PUBLIC_BASE_PATH: /ricardocr987
