@@ -20,7 +20,7 @@ export const DetectorView = () => {
 
               <Grid item xs={12}>
                 <h1>
-                  NFT Detectooor: Include your shitty NFTs on a Twitter Banner
+                  NFT Detectooor: Include your NFTs on a Twitter Banner, not yet
                 </h1>
               </Grid>
               
@@ -46,7 +46,7 @@ export const DetectorView = () => {
                   </div>
                 ) : (
                   <>
-                    <h3>CONNECT WALLET IF YOU WANT TO SHARE ALL YOUR NFTS WITH YOUR FALSE FRIENDS</h3> 
+                    <h3>CONNECT WALLET IF YOU WANT TO SHARE ALL YOUR NFTS</h3> 
                   </>
                 )}
               </Grid>
