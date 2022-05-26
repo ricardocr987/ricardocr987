@@ -1,6 +1,6 @@
 .experiments_container {
   height: 200px;
-  background: radial-gradient(circle, rgba(222,151,0,1) 0%, rgba(214,88,0,1) 100%);
+  background: radial-gradient(circle, rgba(222,151,0,0.9) 0%, rgba(214,88,0,1) 100%);
   display: flex;
   justify-content: center;
   padding: 0 30px;
