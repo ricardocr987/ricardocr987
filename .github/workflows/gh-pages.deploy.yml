@@ -27,8 +27,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install packages
         run: npm ci
-        with:
-          arch: arm64
       - name: Build project
         run: npm run build
       - name: Export static files
